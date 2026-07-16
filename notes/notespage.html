@@ -1,70 +1,235 @@
 <!DOCTYPE html>
-
 <html lang="en">
+
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Joe Orii</title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
-<style>
-        body { font-family: Arial, sans-serif; }
-        .navbar-brand { font-weight: bold; }
-        .section { padding: 50px 0; }
-        footer { background-color: #f8f9fa; padding: 20px 0; text-align: center; }
+    <meta charset="utf-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Joe Orii — Notes</title>
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+        }
+
+        .section {
+            padding: 50px 0;
+        }
+
+        footer {
+            background-color: #f8f9fa;
+            padding: 20px 0;
+            text-align: center;
+        }
     </style>
 </head>
+
 <body>
-<!-- Navigation Bar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-<div class="container">
-<a class="navbar-brand" href="index.html#home">Joe Orii</a>
-<button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
-<span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse" id="navbarNav">
-<ul class="navbar-nav ms-auto">
-<!-- <li class="nav-item"><a class="nav-link" href="index.html#home">Home</a></li> -->
-<li class="nav-item"><a class="nav-link active" href="notes.html">Notes</a></li>
-</ul>
-</div>
-</div>
-</nav>
-<!-- Head Section -->
-<section class="section" id="notes">
-<div class="container">
-<h1>Notes</h1>
-<h2>Imperial College London</h2>
-<p>Any errors found in these notes are definitely due to me, not the lecturers. 
-        These are notes heavily based on the lecture notes that are provided, and may possibly contain more problems or topics
-        which helped me in studying for these courses/ exams. As a final note, there may be some unfinished parts or problems, 
-        which I probably have no intention to update in the near future.</p>
-<h3>Year 4</h3>
-<ul>
-<li><a href="pdfs/alg4.pdf" target="_blank"><strong>Algebra 4 (Homological Algebra)</strong></a> by Benjamin Briggs</li>
-<li><a href="pdfs/alg_geo.pdf" target="_blank"><strong>Algebraic Geometry</strong></a> by Matt Booth</li>
-<li><a href="pdfs/comalg.pdf" target="_blank"><strong>Commutative Algebra</strong></a> by Paolo Cascini</li>
-<li><a href="pdfs/elliptic_curve.pdf" target="_blank"><strong>Elliptic Curves</strong></a> by Yanki Lekili</li>
-<li><a href="pdfs/lie.pdf" target="_blank"><strong>Lie Algebras</strong></a> by Toby Gee</li>
-<li><a href="pdfs/manifold.pdf" target="_blank"><strong>Manifolds</strong></a> by Yuhan Sun</li>
-</ul>
-<h3>Year 3</h3>
-<ul>
-<li><a href="pdfs/algbra_3.pdf" target="_blank"><strong>Algebra 3 (Rings and Modules)</strong></a> by Alessio Corti</li>
-<li><a href="pdfs/algebraic_curves.pdf" target="_blank"><strong>Algebraic Curves</strong></a> by Soheyla Feyzbakhsh</li>
-<li><a href="pdfs/alg_number_theory.pdf" target="_blank"><strong>Algebraic Number Theory</strong></a> by Margherita Pagano</li>
-<li><a href="pdfs/alg_topology.pdf" target="_blank"><strong>Algebraic Topology</strong></a> by Sara Veneziale</li>
-<li><a href="pdfs/galois_theory.pdf" target="_blank"><strong>Galois Theory</strong></a> by Alexei Skorobogatov</li>
-<li><a href="pdfs/geo_curves_surfaces.pdf" target="_blank"><strong>Geometry of Curves and Surfaces</strong></a> by Steven Sivek</li>
-<li><a href="pdfs/group_rep_theory.pdf" target="_blank"><strong>Group Representation Theory</strong></a> by Heather Macbeth</li>
-<li><a href="pdfs/number_theory.pdf" target="_blank"><strong>Number Theory</strong></a> by Ambrus Pal</li>
-</ul>
-</section>
-<!-- Footer -->
-<footer>
-<div class="container">
-<p>© 2026 Joe Orii. Hosted on GitHub Pages.</p>
-</div>
-</footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+
+            <!-- Return to the main homepage -->
+            <a
+                class="navbar-brand"
+                href="../index/index.html#home"
+            >
+                Joe Orii
+            </a>
+
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div
+                class="collapse navbar-collapse"
+                id="navbarNav"
+            >
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a
+                            class="nav-link"
+                            href="../index/index.html#home"
+                        >
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a
+                            class="nav-link active"
+                            href="notespage.html"
+                            aria-current="page"
+                        >
+                            Notes
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Notes Section -->
+    <section class="section" id="notes">
+        <div class="container">
+
+            <h1>Notes</h1>
+
+            <h2>Imperial College London</h2>
+
+            <p>
+                Any errors found in these notes are definitely due to me,
+                not the lecturers. These notes are heavily based on the
+                lecture notes provided and may contain additional problems
+                or topics that helped me while studying for these courses
+                and exams. As a final note, there may be some unfinished
+                sections or problems that I do not currently intend to update.
+            </p>
+
+            <h3>Year 4</h3>
+
+            <ul>
+                <li>
+                    <a href="pdfs/alg4.pdf" target="_blank">
+                        <strong>Algebra 4 (Homological Algebra)</strong>
+                    </a>
+                    by Benjamin Briggs
+                </li>
+
+                <li>
+                    <a href="pdfs/alg_geo.pdf" target="_blank">
+                        <strong>Algebraic Geometry</strong>
+                    </a>
+                    by Matt Booth
+                </li>
+
+                <li>
+                    <a href="pdfs/comalg.pdf" target="_blank">
+                        <strong>Commutative Algebra</strong>
+                    </a>
+                    by Paolo Cascini
+                </li>
+
+                <li>
+                    <a href="pdfs/elliptic_curve.pdf" target="_blank">
+                        <strong>Elliptic Curves</strong>
+                    </a>
+                    by Yanki Lekili
+                </li>
+
+                <li>
+                    <a href="pdfs/lie.pdf" target="_blank">
+                        <strong>Lie Algebras</strong>
+                    </a>
+                    by Toby Gee
+                </li>
+
+                <li>
+                    <a href="pdfs/manifold.pdf" target="_blank">
+                        <strong>Manifolds</strong>
+                    </a>
+                    by Yuhan Sun
+                </li>
+            </ul>
+
+            <h3>Year 3</h3>
+
+            <ul>
+                <li>
+                    <a href="pdfs/algbra_3.pdf" target="_blank">
+                        <strong>Algebra 3 (Rings and Modules)</strong>
+                    </a>
+                    by Alessio Corti
+                </li>
+
+                <li>
+                    <a href="pdfs/algebraic_curves.pdf" target="_blank">
+                        <strong>Algebraic Curves</strong>
+                    </a>
+                    by Soheyla Feyzbakhsh
+                </li>
+
+                <li>
+                    <a href="pdfs/alg_number_theory.pdf" target="_blank">
+                        <strong>Algebraic Number Theory</strong>
+                    </a>
+                    by Margherita Pagano
+                </li>
+
+                <li>
+                    <a href="pdfs/alg_topology.pdf" target="_blank">
+                        <strong>Algebraic Topology</strong>
+                    </a>
+                    by Sara Veneziale
+                </li>
+
+                <li>
+                    <a href="pdfs/galois_theory.pdf" target="_blank">
+                        <strong>Galois Theory</strong>
+                    </a>
+                    by Alexei Skorobogatov
+                </li>
+
+                <li>
+                    <a href="pdfs/geo_curves_surfaces.pdf" target="_blank">
+                        <strong>Geometry of Curves and Surfaces</strong>
+                    </a>
+                    by Steven Sivek
+                </li>
+
+                <li>
+                    <a href="pdfs/group_rep_theory.pdf" target="_blank">
+                        <strong>Group Representation Theory</strong>
+                    </a>
+                    by Heather Macbeth
+                </li>
+
+                <li>
+                    <a href="pdfs/number_theory.pdf" target="_blank">
+                        <strong>Number Theory</strong>
+                    </a>
+                    by Ambrus Pal
+                </li>
+            </ul>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Joe Orii. Hosted on GitHub Pages.</p>
+        </div>
+    </footer>
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    ></script>
+
 </body>
+
 </html>
